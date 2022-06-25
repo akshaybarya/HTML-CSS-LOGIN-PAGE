@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: var(--main-color);
+  transition: scroll 1s;
+  scroll-behavior: smooth;
+}
+
+.cur-po {
+  cursor: pointer;
+}
+
+.body {
+  overflow: hidden;
+  position: relative;
+  background-color: #ffff;
+  height: 100vh;
+  width: 100vw;
+}
+
+.rodalMask {
+  position: absolute;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.outerContainer {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.popupContainer {
+  position: absolute;
+  background-color: #ffff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  min-height: 50%;
+  min-width: 20%;
+  border-radius: 10px;
+  padding: 25px 35px;
+}
+
+.formHeading {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+}
+
+.label {
+   font-size: 16px;
+   margin-bottom: 5px;
+}
+
+.input {
+  border: 1.2px solid #44475B;
+  height: 40px;
+  border-radius: 8px;
+  font-size: 18px;
+  padding-top: 7px;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+.gap {
+  margin-top: 30px;
+}
+
+.button {
+  height: 45px;
+  font-size: 16px;
+  text-transform: capitalize;
+  cursor: pointer;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 12px 0px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.divider {
+  height: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 35px;
+  box-sizing: border-box;
+  margin: 10px 0;
+}
+
+.divider .line {
+  margin-top: 5px;
+  border-top: #44475B dashed 1.5px;
+  width: 45%;
+}
+
+.divider div {
+  font-size: 18px;
+  color: #44475B;
+}
+
+.optionsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
